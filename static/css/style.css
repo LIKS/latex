@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    background-color: transparent;
+    background-image: url("../img/grid.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    color: #222222;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.h1_latex_image {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+#tvarkingas-mokslinis-literaturos-sarasas {
+    padding-top: 0px;
+}
+
+p {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+ul {
+    margin: 0em;
+}
+
+ul.green li {
+    list-style-image: url("../img/green_dot.png");
+}
+
+.indent {
+    padding-left: 20px;
+}
+
+.double-indent {
+    padding-left: 40px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #006060;
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.footer p {
+    display: inline;
+}
+
+.footer .logo {
+    height: 50px;
+}
+
+.footer .text-box {
+    width:360px;
+    float: right;
+    padding-top:10px;
+}
+
+.latex sub, .latex sup {
+    text-transform: uppercase;
+}
+.latex sub {
+    vertical-align: -0.4ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+}
+.latex, .latex sub {
+    font-family: serif;
+    font-size: 1em;
+}
+.latex sup {
+    font-size: 0.85em;
+    vertical-align: 0.25em;
+    margin-left: -0.36em;
+    margin-right: -0.15em;
+}

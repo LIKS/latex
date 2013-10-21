@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>LaTeX šablonai</title>
+
+<!-- Meta Tags -->
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="static/img/tex.ico" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="static/css/style.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="" media="print" type="text/css" />
+
+<!-- JavaScript -->
+
+</head>
+
+<body>
+    <h1 class="h1_latex_image"><img src="static/img/LaTeX.png" style="position:relative; top:10px;"/></h1>
+    <p><a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+    tai tvarkingai formatuotų dokumentų kūrimo įrankis be grafinės sąsajos,
+    kuris pakeičia įprastus teksto redaktorius. Naudodami <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> šablonus galite
+    rūpintis tik teksto turiniu, o reikalavimus atitinkančiais stiliais, formatavimu bus pasirūpinta už Jus.</p>
+    <p>Naudodami <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+    sutaupysite laiko ir parengsite profesionaliai atrodantį darbą, nes:
+    <ul class="green">
+        <li><a href="#tvarkingas-mokslinis-literaturos-sarasas">Tvarkingas mokslinis literatūros sąrašas atspindės darbo kokybę</a></li>
+        <li><a href="#vaizdzios-matematines-formules">Vaizdžios matematinės formulės atskleis darbo solidumą</a></li>
+        <li><a href="#pademonstruosite-kvalifikacija-ir-sutaupysite-laiko">Pademonstruosite savo kvalifikaciją ir sutaupysite laiko</a></li>
+    </ul>
+    <p></p>
+
+
+    <h1>Oficialūs
+
+        <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>
+        šablonai</h1>
+    <!-- ToDo: Šablonai turi būti tinkami ir komandiniam darbui, formatus pasiūlyti katedroms -->
+    <a href="http://www.mif.vu.lt/">VU MIF</a> Kompiuterijos katedros:
+    <ul>
+        <li>Kursinio darbo: &nbsp;<a href="#"><b>šablonas</b></a>.</li>
+        <li>Bakalaurinio darbo: &nbsp;<a href="#"><b>šablonas</b></a>.</li>
+        <li>Magistro baigiamojo darbo: &nbsp;<a href="#"><b>šablonas</b></a>;&nbsp; Puikiai įvertinto darbo <a href="#"><b>pavyzdys</b></a>, jo <a href="static/files/Alberto_ir_Gražinos_magistrinis.pdf"><b>PDF</b></a>.</li>
+        <li>Disertacija: &nbsp;<a href="#"><b>šablonas</b></a>.</li>
+        <li style="padding-top: 10px">Gynimo skaidrių: &nbsp;<a href="#"><b>šablonas</b></a>.</li>
+    </ul>
+    <h1>Kodėl rinktis
+        <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>
+        ?</h1>
+    <h2 id='tvarkingas-mokslinis-literaturos-sarasas'>Tvarkingas mokslinis literatūros sąrašas</h2>
+    <p class="indent">
+        Kursiniuose, bakalauriniuose bei magistro darbuose reikia cituoti
+        tik mokslinę literatūrą, o ne tinklapius ar
+        <a href="https://www.wikipedia.org/">vikipediją</a>. Literatūros
+        šaltinių aprašams <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        dokumentuose naudojamas <a href="http://www.bibtex.org/">BibTeX</a> formatas. Visi mokslinės literatūros
+        šaltiniai turi <a href="http://www.bibtex.org/">BibTeX</a> aprašus, todėl jeigu aprašo nepavyksta rasti -
+        geriau to šaltinio necituoti.
+    </p>
+
+    <p class="indent">
+        Mokslinės literatūros ieškoti rekomenduojama per
+        <a href="https://scholar.google.com/">scholar.google.com</a>.
+        Ties kiekvienu šaltiniu yra nuoroda <a href="#">"Cituoti"</a>, kurią
+        paspaudus galima rasti šaltinio <a href="http://www.bibtex.org/">BibTeX</a> aprašą. Jeigu naršote iš vidinio
+        universiteto tinklo arba esate prie jo prisijungę per VPN, tada
+        galėsite atsisiųsti daugumą rastųjų straipsnių ir knygų.
+    </p>
+    <p class="indent">
+    <a href="http://www.bibtex.org/">BibTeX</a> aprašai talpinami atskirame
+    faile, kurio plėtinys .bbl. Šiame faile galima saugoti visų nagrinėtų
+    literatūros šaltinių aprašus (bei komentarus), nes <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+    į galutinio dokumento literatūros sąrašą sudeda ne visus išsaugotus
+    šaltinius, o tik tuos, į kuriuos buvo daromos nuorodos
+    <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> dokumento
+    tekste.
+    </p>
+    <p class="indent">
+    Nuoroda į šaltinį <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+    tekste įterpiama direktyvos <code>\cite{šaltinioID}</code> pagalba, o
+    sugeneruotame dokumente pavaizduojama naudojant lietuvišką standartą,
+    pavyzdžiui:
+        <code>[Vad05]</code>,
+        <code>[ASGV11]</code>,
+        <code>[BKM<sup>+</sup>13]</code>.
+    </p>
+
+    <h2 id="vaizdzios-matematines-formules">Vaizdžios matematinės formulės</h2>
+    <p class="indent">
+    Galingas, paprastas ir patogus formulių rašymo formatas leidžia ne tik
+    tvarkingai ir vaizdžiai užrašyti sudėtingiausius matematinius reiškinius,
+    bet ir be vargo juos perkelti į <a href="https://www.wikipedia.org/">vikipediją</a>,
+    gynimo skaidres (su Beamer), savo tinklapį (su <a href="http://www.mathjax.org/">MathJax</a>)
+    ar į dokumentaciją, pavyzdžiui paruoštą su <a href="http://sphinx-doc.org">Sphinx</a>.</p>
+
+    <p class="indent">
+    <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> taip pat
+    leidžia lengvai ir tvarkingai sunumeruoti darbe pateiktas formules ir tekste daryti į jas nuorodas.
+    </p>
+
+    <h2 id='pademonstruosite-kvalifikacija-ir-sutaupysite-laiko'>Greitas ir kvalifikaciją demonstruojantis formatavimas</h2>
+    <p class="indent">
+        Solidžiai ir tvarkingai formatuotą darbą galite parengti visai tam
+        neskirdami laiko, panaudodami Jūsų katedros pateiktą ir reikalavimus atitinkantį 
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        šabloną.
+    <p class="indent">
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        yra pagrindinis formatas, naudojamas mokslinių straipsnių
+        rašymui. Moksliniai žurnalai gali lengvai suvienodinti įvairių
+        autorių straipsnių formatavimą bei išdėstymą, apibrėždami bendrą
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        dokumentų stilių.
+    </p>
+    <p class="indent">
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        tapo vienu iš darbo kokybės indikatorių, nes naudoti
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        psirenka iššūkių nebijantys, pažangūs studentai.
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
+        neturi grafinės sąsajos, todėl juo naudotis reikia turėti analitinių ir IT gebėjimų:
+        <ul class="green">
+            <li>Naudotis teksto surinkimo įrankiu (pvz.: <a href="http://www.vim.org/">VIM</a>).</li>
+            <li>Naršant internete rasti sprendimus, kilusiems specifiniams poreikiams.</li>
+        </ul>
+    </p>
+    <p>
+    <h1> <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> diegimas ir naudojimas </h1>
+    <a href="http://www.latex-project.org">LaTeX-project.org</a> - oficiali 
+    <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> 
+    svetainė, kurioje galima rasti diegimo instrukcijas įvairioms operacinėms sistemoms. 
+    <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> 
+    failai gali užimti apie 1 GB vietos.
+
+    <h2 id='diegimas-ubuntu'>Ubuntu</h2>
+        <p class="indent">
+            Terminale reikia įvykdyti komandą:
+        </p>
+        <pre class="double-indent">sudo apt-get install texlive-full</pre>
+        <p class="indent">
+            PDF failui sugeneruoti terminale reikia įvykdyti:
+        </p>
+        <pre class="double-indent">
+pdflatex failo_pavadinimas.tex
+bibtex failo_pavadinimas
+pdflatex failo_pavadinimas.tex
+pdflatex failo_pavadinimas.tex</pre>
+        <p class="indent">
+        Visas keturias komandas galima apjungti į vieną &nbsp;<code>make</code>&nbsp; komandą (plačiau
+        <a href="https://www.gnu.org/software/make/manual/make.html">Makefile</a>), jeigu
+        sukursite failą, pavadinimu &nbsp;<code>Makefile</code>&nbsp; ir į jį įrašysite:
+        <pre class="double-indent">
+generuoti:
+        pdflatex failo_pavadinimas.tex
+        bibtex failo_pavadinimas
+        pdflatex failo_pavadinimas.tex
+        pdflatex failo_pavadinimas.tex</pre>
+        </p>
+
+    <h1>Prisidėk!</h1>
+    <h2>Žinai kaip patobulinti šio puslapio turinį?</h2>
+    <p class="indent">Klonuok <a href="http://github.com/LIKS/latex">šio puslapio Git repozitoriją</a>, modifikuok turinį ir siūlyk ją <a href="https://help.github.com/articles/using-pull-requests">apjungti su originaliąja</a>.
+    <a href="http://www.liks.lt/">LIKS</a> asociacijos nariai peržiūrės ir patvirtins siūlomą įnašą. Už iniciatyvą neliksi nepastebėtas!</p>
+
+    <h2>Padėkos</h2>
+    <p class="indent">
+    <b>Laurynui Biveiniui</b> už lietuviškų
+        <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a> 
+        stilių <a href="http://ims.mii.lt/~lauras/latexlt/">kūrimą ir platinimą</a>.
+    </p>
+
+    <div class="footer">
+        <hr><br/>&nbsp;
+        <p>
+        <a href="http://www.liks.lt/"><img class="logo" src="static/img/liks_logo.png"></a>&nbsp;&nbsp;
+        <a href="http://akl.lt/"><img class="logo" src="static/img/akl_logo.png"></a>
+        <div class="text-box">
+            <img src="static/img/arrow.png"> iniciatyva atsirado keliant akademinių baigiamųjų darbų kokybę bei skatinant
+        atvirų formatų naudojimą.
+        </div>
+        </p>
+    </div>
+</body>
+</html>
