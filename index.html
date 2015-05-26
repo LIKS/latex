@@ -206,37 +206,16 @@
         <p class="indent">
             Norint įsidiegti
             <a href="https://en.wikipedia.org/wiki/LaTeX"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></a>
-            Ubuntu aplinkoje, terminale reikia įvykdyti komandą:
+            (pdflatex, xelatex ir kt.) Ubuntu aplinkoje, terminale reikia įvykdyti komandą:
         </p>
-        <pre class="double-indent">sudo apt-get install texlive-full</pre>
+        <pre class="double-indent">sudo apt-get install texlive-full biber</pre>
         <p class="indent">
-            PDF failui sugeneruoti terminale reikia įvykdyti:
+            Norint sugeneruoti PDF failą reikia terminale nueiti į projeto direktoriją ir įvykdyti komandą:
         </p>
-        <pre class="double-indent">
-pdflatex failo_pavadinimas.tex
-bibtex failo_pavadinimas
-pdflatex failo_pavadinimas.tex
-pdflatex failo_pavadinimas.tex</pre>
+        <pre class="double-indent">make</pre>
         <p class="indent">
-            O sugeneruotąjį failą galima atidaryti su komanda:
-        <pre class="double-indent">
-xdg-open failo_pavadinimas.pdf</pre>
+        Jeigu generuojant neįvyko klaidų bus automatiškai atvertas sukonstruotas PDF failas.
         </p>
-        <p class="indent">
-        Šias komandas galima apjungti į vieną terminalo komandą. Tai padaryti galima panaudojant
-        <a href="https://www.gnu.org/software/make/manual/make.html">Makefile</a>. Jums tereikia projekto šakniniame aplanke sukurti 
-        failą su pavadinimu
-        &nbsp;„<code>Makefile</code>“&nbsp;, į jį įrašyti: 
-        <pre class="double-indent">
-generuoti:
-        pdflatex failo_pavadinimas.tex
-        bibtex failo_pavadinimas
-        pdflatex failo_pavadinimas.tex
-        pdflatex failo_pavadinimas.tex
-        xdg-open failo_pavadinimas.pdf</pre>
-        </p>
-        <p class="indent">
-        Tada terminale nuėjus į projekto šakninį aplanką ir įvykdžius komandą &nbsp;„<code>make</code>“&nbsp; bus pergeneruotas ir atvertas išeities failas.
 
     <h1 id="Prisidek">Prisidėk!</h1>
     <h2>Turi pasiūlymų, pageidavimų ar nori pranešti klaidą?</h2>
